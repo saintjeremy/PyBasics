@@ -2,26 +2,26 @@
 
 # Several other operations on lists.
 
-fred = [ 'Alice', 'goes', 'to', 'market' ]
-print ('A:', fred)
+dieter = [ 'Alice', 'goes', 'to', 'market' ]
+print ('A:', dieter)
 
-fred.extend([ 'with', 'Mike' ])
-print ('B:', fred)
+dieter.extend([ 'with', 'Mike' ])
+print ('B:', dieter)
 
-last = fred.pop()
-fred.append('Fred')
+last = dieter.pop()
+dieter.append('dieter')
 
-print ('C:', fred)
+print ('C:', dieter)
 
 print ('So much for Mike.')
-print ('There are', len(fred), 'items in fred.')
-print ('The word market is located at position', fred.index('market'))
+print ('There are', len(dieter), 'items in dieter.')
+print ('The word market is located at position', dieter.index('market'))
 
-fred = [ 'On', 'Tuesday,' ] + fred
-print ('D:', fred)
+dieter = [ 'On', 'Tuesday,' ] + dieter
+print ('D:', dieter)
 
-fred.reverse()
-print ('E:', fred)
+dieter.reverse()
+print ('E:', dieter)
 
-fred.sort()
-print ('F:', fred)
+dieter.sort()
+print ('F:', dieter)

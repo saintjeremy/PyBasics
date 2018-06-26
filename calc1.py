@@ -7,8 +7,7 @@
 #   Python and Tkinter Programming, Ch. 3
 #   http://www.manning.com/books/grayson/source
 #
-# Modified by T W Bennet
-#
+# 
 from Tkinter import *
 from tkMessageBox import *
 
@@ -17,14 +16,14 @@ from tkMessageBox import *
 class Calculator(Frame):
 
     # Create and return a packed frame.
-    def frame(this, side): 
+    def frame(this, side):
         w = Frame(this)
         w.pack(side=side, expand=YES, fill=BOTH)
         return w
 
     # Create and return a button.
-    def button(this, root, side, text, command=None): 
-        w = Button(root, text=text, command=command) 
+    def button(this, root, side, text, command=None):
+        w = Button(root, text=text, command=command)
         w.pack(side=side, expand=YES, fill=BOTH)
         return w
 
@@ -100,7 +99,7 @@ class Calculator(Frame):
             if char == '=':
                 btn = self.button(opsF, LEFT, char, self.calc)
             else:
-                btn = self.button(opsF, LEFT, char, 
+                btn = self.button(opsF, LEFT, char,
                                   lambda w=self, s=char: w.oper(s))
 
         # Clear button.

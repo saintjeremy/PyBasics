@@ -9,6 +9,6 @@ for y in range(0,21):
     power = 2 * power
     
 # Scanning a list.
-fred = ['And', 'now', 'for', 'something', 'completely', 'different.'];
-for i in range(0,len(fred)):
-    print(i, fred[i])
+dieter = ['And', 'now', 'for', 'something', 'completely', 'different.'];
+for i in range(0,len(dieter)):
+    print(i, dieter[i])

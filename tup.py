@@ -33,14 +33,14 @@ print("I:", mt, singleton)
 
 # Tuples are immutable.
 try:
-    fred = 5, 9, 22
-    fred[1] = 3
+    dieter = 5, 9, 22
+    dieter[1] = 3
     print("Won't see this.")
 except TypeError as descr:
     print("*** That won't work:", descr, "***")
 
 # Tuples may contain mutable objects.
-fred = (5, 9, [3, 4, 7])
-print("J:", fred)
-fred[2][1] = 'cow'
-print("K:", fred)
+dieter = (5, 9, [3, 4, 7])
+print("J:", dieter)
+dieter[2][1] = 'cow'
+print("K:", dieter)

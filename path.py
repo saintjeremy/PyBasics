@@ -4,7 +4,7 @@
 # for whaterver system you're running on.
 from os.path import *
 
-for fn in [ '/', '/home/bennet', 'path.py', '/var/log/messages', 'bogus' ]:
+for fn in [ '/', '/home/bennet', 'path.py', '/var/log/messages', 'abong' ]:
     print('%-15s' % fn + ':',end=' ')
 
     # Don't forget: These operations are os.path.whatever.

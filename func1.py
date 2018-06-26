@@ -20,4 +20,4 @@ def prlines(str, num):
 
 prlines('z', 5)
 print()
-prlines('fred ', 4)
+prlines('dieter ', 4)

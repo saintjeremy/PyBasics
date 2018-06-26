@@ -2,36 +2,36 @@
 
 # Dictionaries map keys to values.
 
-fred = { 'mike': 456, 'bill': 399, 'sarah': 521 }
+dieter = { 'mike': 456, 'bill': 399, 'sarah': 521 }
 
 # Subscripts.
 try:
-    print(fred)
-    print(fred['bill'])
-    print(fred['nora'])
+    print(dieter)
+    print(dieter['bill'])
+    print(dieter['nora'])
     print("Won't see this!")
 except KeyError as rest:
     print("Lookup failed:", rest)
 print()
 
 # Entries can be added, udated, or deleted.
-fred['bill'] = 'Sopwith Camel'
-fred['wilma'] = 2233
-del fred['mike']
-print(fred)
+dieter['bill'] = 'Sopwith Camel'
+dieter['tuna'] = 2233
+del dieter['mike']
+print(dieter)
 print()
 
 # Get all the keys.
-print(fred.keys())
-for k in fred.keys():
-    print(k, "=>", fred[k])
+print(dieter.keys())
+for k in dieter.keys():
+    print(k, "=>", dieter[k])
 print()
 
 # Test for presence of a key.
-for t in [ 'zingo', 'sarah', 'bill', 'wilma' ]:
+for t in [ 'zingo', 'sarah', 'bill', 'tuna' ]:
     print(t,end=' ')
-    if t in fred:
-        print('=>', fred[t])
+    if t in dieter:
+        print('=>', dieter[t])
     else:
         print('is not present.')
 

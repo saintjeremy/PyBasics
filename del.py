@@ -5,15 +5,15 @@ import sys
 
 # Delete operation.
 try:
-    fred = [ 4, 5, 11, 43 ]
-    print('fred =', fred)
-    del fred[2]
-    print('fred =', fred)
-    del fred
-    print('fred =', fred)
+    dieter = [ 4, 5, 11, 43 ]
+    print('dieter =', dieter)
+    del dieter[2]
+    print('dieter =', dieter)
+    del dieter
+    print('dieter =', dieter)
     print("Doesn't get here!")
 except NameError as x:
     print("*** Name", x, "undefined ***")
 
-fred = 'Nimrod'
-print('fred =', fred)
+dieter = 'hunter'
+print('dieter =', dieter)
