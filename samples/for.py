@@ -5,8 +5,8 @@
 
 # The for loop goes through a list, like foreach in
 # some other languages.  A useful construct.
-for x in ['Bill', 'Alice', 'Joe', 'Sue' ]:
-    print(x, 'likes jelly beans.')
+for x in ['Jerry', 'Phil', 'Bobby', 'Billy', 'Mickey', 'Ron' ]:
+    print(x, 'can be seen playing in the band.')
 
 # The range operator simply creates a list of numbers
 # in the indicated range.  Note that the range ends
@@ -25,4 +25,3 @@ print()
 for y in range(20, 10, -1):
     print(y,end=' ')
 print()
-    
